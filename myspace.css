@@ -1,0 +1,280 @@
+/* gliczide css theme */
+/* credits: */
+/* ROBLOX, RandomTrash, firey, */
+/* you can feel free to modify my theme. but you need to credit me */
+/* ∂𝑧. */
+.extended.box, .short, .box.fwiends, .player.box, .box.blurbs, .box.comments, .box.blog, .footer, .boxInfo, div#header, div#hSub, .rightHead {
+    filter: drop-shadow(0px 0px 6px black);
+    backdrop-filter: blur(8px);
+}
+/*you can disable blur if you want to*/
+.player img {
+    filter: invert(100%);
+}
+/* hides info only motto you can enable it if you want to. by just removing shortRight code */
+#credo, #viewFriends b a, div#hSub, body, .boxInfo .boxButton#sMsg:before, .boxInfo .boxButton#add:before, #viewFriends b:before {
+font-size: 15px;
+}
+.shortRight, .boxInfo .boxButton#add, .boxInfo .boxButton#sMsg, #viewFriends b {
+font-size: 0px;
+}
+.blogs, .blog div, .fwiendCounter, h4, .rightHead, h1 {
+padding-left: 3px;
+}
+.viewFriends {
+padding-right: 3px;
+}
+p {
+    margin: 5px;
+}
+.blurbs {
+background: white;
+box-shadow: inset #1a1a1a 1px 18px;
+padding: 0px;
+}
+ 
+.blurbs>.rightHead{
+padding-left: 5px;
+margin: 0 -3px;
+ 
+}
+ 
+.blogs{
+display: flex;
+flex-flow: row wrap;
+padding-top: 16px;
+padding-bottom: 16px;
+}
+ 
+.blurbs>.blogs>div:first-child {
+position: relative;
+width: calc(100% + 2px);
+top: -14px;
+}
+ 
+.blurbs>.blogs>div:nth-child(2) {
+box-shadow:0px 0px 0 1px white;
+}
+ 
+.blurbs>.blogs>div:not(:first-child) {
+width: 96px;
+text-align: center;
+margin: 0 20px;
+}
+ 
+.blurbs>.blogs>div:not(:first-child):before {
+content: "";
+display: block;
+width: 96px;
+height: 64px;
+background: url(https://i.imgur.com/uOL4eIO.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+html {
+    cursor: url(https://www.cursor.cc/cursor/940/115/cursor.png), auto;
+}
+a:hover, button:hover {
+    cursor: url(https://www.cursor.cc/cursor/764/103/cursor.png), pointer;
+}
+a, b, .boxButton, .fwiendCount, .fwiendFace b, .box, .logo::before, h4, div#hSub, .blogs {
+ color: #fff;
+}
+img {
+image-rendering: auto;
+}
+.logo, .boxHead > .boxInfo > b {
+    font-size: 0;
+}
+.logo::before {
+    font-size: small;
+}
+audio {
+    filter: sepia(0%) saturate(0%) grayscale(0) contrast(100%) invert(100%);
+}
+.fwiendFace:hover, .tableLeft img:hover{
+  transform: scale(1.1);
+  transition: all ease 500ms
+}
+.fwiendFace, .tableLeft img{
+  transform: scale(1);
+  transition: all ease 500ms
+}
+.topLeft, .box, .audio {
+      animation-duration:1.5s;
+      animation-name:fadein;
+}
+@keyframes fadein {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes sizein {
+  0% {  transform: scale(0); transition: all ease 500ms }
+  100% { transform: scale(1); transition: all ease 500ms }
+}
+#report, #block {
+    visibility: hidden;
+}
+#sMsg, #add, #block, #report {
+    background-repeat: no-repeat;
+}
+#block, #report {
+    display: none;
+}
+
+.fwiendFace img, .tableLeft img, .avatar {
+    border: 3px solid;
+    border-color: #fff;
+    border-radius: 100%;
+}
+
+.player {
+border: 0px black;
+}
+
+.player::after {
+    content: "";
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 200px;
+    height: 200px;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-image: url(https://i.imgur.com/CqbX25F.jpg);
+    border: 5px solid;
+}
+
+.short, .tableRight, .tableLeft, .box, #hSub, #container, .boxInfo, #header, .box.blog {
+  background: rgba(0,0,0,0.37) !important;
+}
+#container {
+    margin-top: -24px;
+}
+.fwiendFace img, .tableLeft img {
+    height: 110px;
+    width: 110px;
+    object-fit: cover;
+    max-width: none;
+}
+
+#name {
+    font-family: Blok Glic;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.url {  
+    height: 0px;
+    width: 0px;
+    visibility: hidden;
+}
+.songName {
+    margin-top: 0px;
+    font-size: small;
+    padding-left: 4px;
+}
+.box {
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+.fwiendFace b, {
+padding-right: 100px;
+}
+ 
+.url {
+    background-color: white;
+    color: white;
+    padding: 2px;
+}
+ 
+h4 {
+    margin-bottom: 0px;
+}
+ 
+.logo::before {
+    visibility: visible;
+    content: "GLICZIDE";
+    font-size: 20px;
+    font-family: Blok Glic;
+    text-align: center;
+}
+#header {
+    color: transparent !important;
+}
+div#header {
+    background: #000000;
+    font-family: Blok Glic;
+    border-bottom: 1px solid #fff;
+}
+div#hSub {
+    font-family: "Eras ITC", "Eras Light ITC", sans-serif;
+    font-size: 15px;
+    background: #000000;
+    margin-top: 1px;
+}
+body {
+    color: #fff;
+    padding-top: 75px;
+    font-size: 15px;
+    font-family: "Eras ITC", "Eras Light ITC",  sans-serif;
+    background: url(https://i.imgur.com/6aAkkiZ.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.boxHead {
+    background: #1a1a1a;
+}
+.boxInfo {
+border: 0px;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+.extended {
+    border: 0px;
+} 
+.rightHead{
+background: rgb(25, 25, 25);
+}
+#hSub a:hover { 
+background: #646464 !important; 
+text-decoration: underline;
+}
+
+#sMsg {
+    background-repeat: no-repeat;
+    background-image: url(https://i.imgur.com/WYOibsM.png);
+}
+
+#add {
+     background-image: url(https://i.imgur.com/GZ4dA1F.png);
+}
+
+#imgPreview img {
+      animation-duration:1s;
+      animation-name:sizein;
+      background: #00000000;
+}
+.boxInfo .boxButton#sMsg:before {
+    content: "direct message";
+}
+.boxInfo .boxButton#add:before {
+    content: "friend request";
+}
+#viewFriends b:before {
+    content: "See ";
+}
+::-webkit-scrollbar {
+    background-color: #000 !important;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #151515;
+}
