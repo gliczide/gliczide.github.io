@@ -1,0 +1,26 @@
+html, body {
+    cursor: url(https://www.cursor.cc/cursor/940/115/cursor.png), auto;
+}
+a:hover {
+    cursor: url(https://www.cursor.cc/cursor/764/103/cursor.png), pointer;
+}
+ @keyframes fadein {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+img:hover {
+  transform: scale(1.1);
+  transition: all ease 500ms
+}
+img{
+    transform: scale(1);
+    transition: all ease 500ms
+}
+a, strong, font, p, sub, hr, h1, img{
+     animation-duration:1.5s;
+      animation-name:fadein;
+}
+body {
+font-family: Trebuchet MS;
+color: white;
+}
