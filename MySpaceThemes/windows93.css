@@ -145,7 +145,7 @@ html:after {
 }
 body:before {
     background-image: url(https://i.imgur.com/qdvXdev.png);
-    width: 1009px;
+    width: 4360px;
     height: 30px;
     display: block;
     content: "";
@@ -153,8 +153,7 @@ body:before {
     bottom: 0;
     right: 0;
     background-size: 1009px;
-    z-index: 1000;
-}
+    z-index: 100;
 }
 /* others */
 .fwiendCounter > b {
