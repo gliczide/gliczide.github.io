@@ -122,7 +122,6 @@ div#header {
 .box.blurbs > div.blogs > div > a:hover, .extended.box > a > h3:hover, #viewFriends > b > a:hover, div#hSub > a:hover, #hUp > a:hover, .fwiendFace:hover, .boxButton:hover, .tableLeft > a:hover, .tableLeft:hover {
     background: #0090e4;
     color: white;
-    padding: 0;
 }
 /* taskbar */
 html:after {
