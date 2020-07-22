@@ -169,6 +169,9 @@ margin-bottom: 30px;
 .tableLeft > a > div {
     margin-left: 10px;
 }
+img {
+image-rendering: auto
+}
 /* folder view */
 .blogs {
 display: flex;
