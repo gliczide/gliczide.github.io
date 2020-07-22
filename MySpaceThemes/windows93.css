@@ -58,7 +58,7 @@ body {
     background: linear-gradient(100deg,#f0f 0,#0ff 100%);
     color: #fff;
 }
-.url.box, .boxInfo.box, .player.box, .tableLeft, .tableRight, .box.blog, .box.blurbs, .box.fwiends, .box.comments, button, input, #avatar, .tableLeft img, .fwiendFace img {
+.url.box, .boxInfo.box, .player.box, .tableLeft, .tableRight, .box.blog, .box.blurbs, .box.fwiends, .box.comments, button, input, #avatar {
     margin-bottom: 20px;
     padding-right: 1px;
     padding-left: 2px;
