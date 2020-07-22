@@ -5,6 +5,7 @@
 }
 @keyframes boot {
 0% {
+    cursor: none;
     background: url(https://i.imgur.com/dZapDBZ.gif) #000;
     background-position: center;
     background-size: 75%;
@@ -18,7 +19,6 @@
     border: none;
     box-shadow: none;
     filter: drop-shadow(0px 100px #000000);
-    cursor: none;
     z-index: 1000;
 }
 }
