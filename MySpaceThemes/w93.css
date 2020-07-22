@@ -32,7 +32,6 @@
     border-image-repeat: repeat repeat;
     border-image-source: url(https://i.imgur.com/qLpFPAX.png);
     background: linear-gradient(135deg,#f0f 0,#0ff 25%);
-
 }
 .topRight {
     margin-top: 10px;
