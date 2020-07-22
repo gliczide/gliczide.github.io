@@ -118,7 +118,7 @@ div#header {
     background-image: url(https://i.imgur.com/slkg8Sx.png);
 }
 /* hover */
-.box.blurbs > div.blogs > div > a:hover, .tableLeft > a > div > b:hover, .extended.box > a > h3:hover, #viewFriends > b > a:hover, div#hSub > a:hover, #hUp > a:hover, {
+.box.blurbs > div.blogs > div > a:hover, .extended.box > a > h3:hover, #viewFriends > b > a:hover, div#hSub > a:hover, #hUp > a:hover, {
     background: #0090e4;
     color: white;
     padding: 0;
@@ -155,9 +155,6 @@ body:before {
     background-size: 1009px;
     z-index: 1000;
 }
-/* blogs */
-.blogs div, .blogCard img {
-    margin-top: 15px;
 }
 /* others */
 .fwiendCounter > b {
@@ -166,11 +163,17 @@ body:before {
 .fwiendCount {
     color: #000;
 }
-.tableLeft, .tableRight {
-    background: #0000;
-}
 .blog { 
 margin-top: 0px; 
+}
+.blogs div, .blogCard img {
+    margin-top: 15px;
+}
+#footer.box {
+margin: 25px;
+}
+.tableLeft > a > div {
+    margin-left: 10px;
 }
 /* folder view */
 .blogs {
