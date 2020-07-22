@@ -33,7 +33,7 @@
     border-image-repeat: repeat repeat;
     border-image-source: url(https://i.imgur.com/qLpFPAX.png);
     background: linear-gradient(135deg,#f0f 0,#0ff 25%);
-    box-shadow: (inset 1px 1px #fff, 0 0 150px 1px rgba(255,0,255,.5);
+    box-shadow: inset 1px 1px #fff, 0 0 150px 1px rgba(255,0,255,.5;
 }
 .topRight {
     margin-top: 10px;
