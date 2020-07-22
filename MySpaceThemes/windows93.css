@@ -24,7 +24,6 @@
 }
 /* window */
 .topLeft {
-    z-index: 3;
     margin-top: 10px;
     margin-left: -5px;
     border: 0px solid transparent;
