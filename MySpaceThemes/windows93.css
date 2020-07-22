@@ -6,7 +6,7 @@
 @keyframes boot {
 0% {
     cursor: none;
-    background: url(https://i.imgur.com/dZapDBZ.gif) #000;
+    background: url(https://i.imgur.com/MXP0bx5.gif) #000;
     background-position: center;
     background-size: 75%;
     background-repeat: no-repeat;
@@ -168,9 +168,6 @@ margin-bottom: 30px;
 }
 .tableLeft > a > div {
     margin-left: 10px;
-}
-img {
-image-rendering: initial;
 }
 /* folder view */
 .blogs {
