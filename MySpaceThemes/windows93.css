@@ -118,7 +118,7 @@ div#header {
     background-image: url(https://i.imgur.com/slkg8Sx.png);
 }
 /* hover */
-.box.blurbs > div.blogs > div > a:hover, .tableLeft > a > div > b:hover, .extended.box > a > h3:hover, #viewFriends > b > a:hover, div#hSub > a:hover, #hUp > a:hover {
+.box.blurbs > div.blogs > div > a:hover, .tableLeft > a > div > b:hover, .tableLeft img:hover, .extended.box > a > h3:hover, #viewFriends > b > a:hover, div#hSub > a:hover, #hUp > a:hover, {
     background: #0090e4;
     color: white;
     padding: 0;
