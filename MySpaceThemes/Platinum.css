@@ -1,0 +1,276 @@
+/* credit to dominic for making a css idea */
+img {
+    image-rendering: pixelated;
+}
+.url.box::before {
+    background-image: url(https://i.imgur.com/c0HUlyk.png);
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 5px;
+    position: fixed;
+    display: block;
+    content: "";
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 2560;
+    visibility: visible;
+}
+.url.box::after {
+    background-image: url(https://i.imgur.com/LB4blv1.png);
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 5px;
+    position: fixed;
+    display: block;
+    content: "";
+    left: 0;
+    top: 0;
+    margin: auto;
+    z-index: 2560;
+    visibility: visible;
+}
+div#header:before {
+    background-image: url(https://i.imgur.com/9tWHpYP.png);
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 5px;
+    position: fixed;
+    display: block;
+    content: "";
+    right: 0;
+    top: 0;
+    margin: auto;
+    z-index: 2560;
+    visibility: visible;
+}
+div#container:before {
+    background-image: url("https://i.imgur.com/1fpurzl.png");
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 5px;
+    position: fixed;
+    display: block;
+    content: "";
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    visibility: visible;   
+}
+html::before {
+    background-image: url(https://i.imgur.com/81FLzna.png);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 370px;
+    position: fixed;
+    display: block;
+    content: "";
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    margin: auto;
+    z-index: 1500;
+    animation: welcome 4.5s steps(1) none;
+    animation-fill-mode: forwards;
+}
+html, body, input {
+    cursor: url("https://gliczide.github.io/images/arrow.cur"),default;
+}
+.player audio::-webkit-media-controls-play-button, .player audio::-webkit-media-controls-mute-button, .player audio::-webkit-media-controls-volume-slider, .player audio::-webkit-media-controls-timeline, a, img, button {
+    cursor: url("https://gliczide.github.io/images/hand.cur"),pointer;
+}
+
+@keyframes show {
+0% {
+   visibility: hidden;
+}
+}
+@keyframes welcome {
+0% {
+   visibility: hidden;
+}
+64% {
+   visibility: visible;
+}
+100% {
+   visibility: hidden;
+}
+}
+@keyframes black {
+0% {
+   cursor: none;
+   background: #000;
+}
+}
+#container, body, html::after, body::before {
+    animation: show 5s steps(1) none;
+    animation-fill-mode: forwards;
+}
+div#header, div#hSub {
+    position: absolute;
+    margin-top: -55px;
+    margin-left: -4px;
+    width: 1012px;
+    font-family: Chicago,sans-serif;
+    font-size: 12px;
+}
+#hUp {
+   font-size: 12px;
+}
+div#hSub {
+    height: 16px;
+}
+#container {
+    position: relative;
+}
+html::after {
+    background-image: url(https://i.imgur.com/gSF2icv.png);
+    width: 1009px;
+    height: 20px;
+    display: block;
+    content: "";
+    position: fixed;
+    top: 0;
+    background-size: 1009px;
+    z-index: 512;
+}
+body:before {
+    background-image: url(https://i.imgur.com/nGIaozT.png);
+    width: 1009px;
+    height: 20px;
+    display: block;
+    content: "";
+    z-index: 512;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-size: 1009px;
+}
+#header {
+    margin-top: -33px;
+    margin-left: -5px;
+    /* all: unset; */
+}
+.topLeft {
+  margin-left: -5px;
+}
+.topLeft, .topRight {
+  margin-top: 4px;
+  border: 0px solid transparent;
+  border-image-source: url(https://i.imgur.com/WdevE3a.png);
+  border-image-slice: 22 55 2 fill;
+  border-image-width: 22px 55px 2px;
+  border-image-repeat: repeat repeat;
+}
+body {
+   background: url("https://i.imgur.com/OlkZWVC.png");
+   background-attachment: fixed;
+   margin-top: 30px;
+   background-color: black;
+   animation: black 2.3s steps(1) none;
+}
+body::after {
+    background-image: url("https://i.imgur.com/5OJvvCQ.png");
+    background-repeat: no-repeat;
+    width: 109px;
+    height: 432px;
+    position: fixed;
+    display: block;
+    content: "";
+    right: 0;
+    top: 20px;
+    margin: auto;
+    animation: show 5s steps(1) none;
+    animation-fill-mode: forwards;
+}
+a.logo {
+  font-size: 0px;
+}
+a.logo:before {
+  content: url(https://i.imgur.com/agAdiil.png);
+}
+#sMsg {
+  background-image: url("https://i.imgur.com/C3iRScf.png");
+}
+#add {
+  background-image: url("https://i.imgur.com/lDwAaKi.png");
+}
+#block {
+  background-image: url("https://i.imgur.com/C0NQFsc.png");
+}
+#report {
+  background-image: url("https://i.imgur.com/dkVaWi5.png");
+}
+.blog { 
+margin-top: 0px; 
+}
+.blogs div, .blogCard img {
+    margin-top: 15px;
+}
+#footer.box {
+margin-bottom: 30px;
+}
+.boxHead, .rightHead {
+text-align: center;
+}
+.blogs {
+display: flex;
+flex-flow: row wrap;
+padding-top: 16px;
+padding-bottom: 16px;
+}
+ 
+.blurbs>.blogs>div:first-child {
+position: relative;
+width: calc(100% + 2px);
+top: -30px;
+margin-left: 3px;
+height: 0px;
+}
+ 
+.blurbs>.blogs>div:nth-child(2) {
+box-shadow:0px 0px 0 1px white;
+}
+ 
+.blurbs>.blogs>div:not(:first-child) {
+width: 96px;
+text-align: center;
+margin: 0 20px;
+}
+ 
+.blurbs>.blogs>div:not(:first-child):before {
+content: "";
+display: block;
+width: 96px;
+height: 64px;
+background: url(https://i.imgur.com/llf7cg4.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+.boxHead {
+    color: black;
+}
+.songName {
+font-size: 0px;
+}
+.player>.songName>a>img {
+    display: none;
+}
+.tableLeft, .tableRight {
+    background: none;
+}
+div#container:after {
+    background-image: url("https://i.imgur.com/mUugjgV.png");
+    background-repeat: no-repeat;
+    width: 458px;
+    height: 24px;
+    position: fixed;
+    display: block;
+    content: "";
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    animation: show 5s steps(1) none;
+    animation-fill-mode: forwards;
+}
