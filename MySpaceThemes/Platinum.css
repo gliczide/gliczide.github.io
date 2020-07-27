@@ -2,6 +2,7 @@
 img {
     image-rendering: pixelated;
 }
+/* radius 
 .url.box::before {
     background-image: url(https://i.imgur.com/c0HUlyk.png);
     background-repeat: no-repeat;
@@ -56,6 +57,12 @@ div#container:before {
     bottom: 0;
     margin: auto;
     visibility: visible;   
+}
+*/
+a:hover {
+    color: white;
+    background: #333399;
+    border-top: 2px solid #66c;
 }
 html::before {
     background-image: url(https://i.imgur.com/81FLzna.png);
@@ -162,6 +169,7 @@ body:before {
   border-image-slice: 22 55 2 fill;
   border-image-width: 22px 55px 2px;
   border-image-repeat: repeat repeat;
+  filter: drop-shadow(1px 1px black);
 }
 body {
    background: url("https://i.imgur.com/OlkZWVC.png");
