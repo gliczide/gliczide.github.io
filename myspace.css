@@ -11,7 +11,7 @@
 .player img {
     filter: invert(100%);
 }
-/* hides info only motto you can enable it if you want to. by just removing shortRight code */
+/* hides info, only motto and last login, you can enable it if you want to. by just removing shortRight code */
 #credo, #viewFriends b a, div#hSub, body, .boxInfo .boxButton#sMsg:before, .boxInfo .boxButton#add:before, #viewFriends b:before {
 font-size: 15px;
 }
