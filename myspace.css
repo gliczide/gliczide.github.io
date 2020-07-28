@@ -210,6 +210,7 @@ h4 {
     color: transparent !important;
 }
 div#header {
+    position: fixed;
     background: none !important;
     backdrop-filter: none;
     margin-top: -29px;
