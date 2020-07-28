@@ -3,7 +3,7 @@
 /* ROBLOX, RandomTrash, firey, */
 /* you can feel free to modify my theme. but you need to credit me */
 /* ∂𝑧. */
-.extended.box, .short, .box.fwiends, .player.box, .box.blurbs, .box.comments, .box.blog, .footer, .boxInfo, div#header, div#hSub, .rightHead {
+.extended.box, .short, .box.fwiends, .player.box, .box.blurbs, .box.comments, .box.blog, .footer, .boxInfo, div#header, .rightHead {
     filter: drop-shadow(0px 0px 6px black);
     backdrop-filter: blur(8px);
 }
@@ -210,7 +210,12 @@ h4 {
     color: transparent !important;
 }
 div#header {
-    background: #000000;
+    background: none !important;
+    backdrop-filter: none;
+    margin-top: -29px;
+    left: 100px;
+    right: 0;
+    width: 600px;
     font-family: Blok Glic;
     border-bottom: 1px solid #fff;
 }
