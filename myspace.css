@@ -210,21 +210,18 @@ h4 {
     color: transparent !important;
 }
 div#header {
-    position: fixed;
-    background: none !important;
-    backdrop-filter: none;
-    margin-top: -29px;
-    left: 100px;
-    right: 0;
-    width: 600px;
     font-family: Blok Glic;
     border-bottom: 1px solid #fff;
 }
 div#hSub {
     font-family: "Eras ITC", "Eras Light ITC", sans-serif;
     font-size: 15px;
-    background: #000000;
-    margin-top: 1px;
+    background: none !important;
+    backdrop-filter: none;
+    margin-top: -29px;
+    left: 100px;
+    right: 0;
+    width: 600px;
 }
 body {
     color: #fff;
