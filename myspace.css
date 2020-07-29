@@ -86,9 +86,6 @@ image-rendering: auto;
 .logo, .boxHead > .boxInfo > b {
     font-size: 0;
 }
-.logo::before {
-    font-size: small;
-}
 audio {
     filter: sepia(0%) saturate(0%) grayscale(0) contrast(100%) invert(100%);
 }
