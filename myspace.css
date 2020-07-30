@@ -79,8 +79,8 @@ a:hover, button:hover {
 }
 a, b, .boxButton, .fwiendCount, .fwiendFace b, .box, .logo::before, h4, div#hSub, .blogs {
  color: #fff;
- text-align: center;
 }
+
 img {
 image-rendering: auto;
 }
