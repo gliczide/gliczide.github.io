@@ -79,6 +79,7 @@ a:hover, button:hover {
 }
 a, b, .boxButton, .fwiendCount, .fwiendFace b, .box, .logo::before, h4, div#hSub, .blogs {
  color: #fff;
+ text-align: center;
 }
 img {
 image-rendering: auto;
@@ -231,6 +232,9 @@ body {
 
 .boxHead {
     background: #1a1a1a;
+}
+.boxInfo.box {
+    font-size: 0;
 }
 .boxInfo {
 border: 0px;
