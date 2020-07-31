@@ -259,12 +259,6 @@ background-position: center;
 .boxHead {
     color: black;
 }
-.songName {
-font-size: 0px;
-}
-.player>.songName>a>img {
-    display: none;
-}
 .tableLeft, .tableRight {
     background: none;
 }
