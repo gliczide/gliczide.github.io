@@ -59,11 +59,6 @@ div#container:before {
     visibility: visible;   
 }
 */
-a:hover {
-    color: white;
-    background: #333399;
-    border-top: 2px solid #66c;
-}
 html::before {
     background-image: url(https://i.imgur.com/81FLzna.png);
     background-repeat: no-repeat;
