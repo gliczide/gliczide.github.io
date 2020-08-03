@@ -73,7 +73,7 @@ body {
     color: #000;
 }
 .blurbs > .blogs > div:first-child, .boxHead {
-    background: linear-gradient(135deg,#f0f 0,#0ff 75%);
+    background-color: linear-gradient(135deg,#f0f 0,#0ff 75%);
 }
 /* window icons */
 .boxInfo > div > b:before {
