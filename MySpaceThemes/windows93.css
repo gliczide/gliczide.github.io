@@ -72,6 +72,18 @@ body {
     border-bottom: 1px solid #808080;
     color: #000;
 }
+.blurbs > .blogs > div:first-child, .boxHead {
+    background: linear-gradient(135deg,#f0f 0,#0ff 75%);
+}
+/* window icons */
+.boxInfo > div > b:before {
+    content: "";
+    font-size: 15px;
+    padding-left: 20px;
+    background-image: url(http://windows93.net/c/sys/skins/w93/info.png);
+    background-repeat: no-repeat;
+    background-size: 16px;
+}
 /* cursors */
 html, body {
      cursor: url("https://www.windows93.net/c/sys/cursors/default.cur"),default;
