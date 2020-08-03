@@ -54,7 +54,7 @@ body {
     background-repeat: no-repeat, repeat;
 
 }
-.boxHead, .rightHead {
+.boxHead, .rightHead, .blurbs > .blogs > div:first-child {
     background: linear-gradient(100deg,#f0f 0,#0ff 100%);
     color: #fff;
 }
@@ -71,9 +71,6 @@ body {
     border-top: 1px solid #d4d0c8;
     border-bottom: 1px solid #808080;
     color: #000;
-}
-.blurbs > .blogs > div:first-child, {
-    background: linear-gradient(135deg,#f0f 0,#0ff 100%);
 }
 /* window icons */
 .boxInfo > div > b:before {
