@@ -80,7 +80,7 @@ body {
     background-repeat: no-repeat;
     background-size: 16px;
 }
-.box.fwiends > div > b:before {
+.box.fwiends > .rightHead:before {
     content: "";
     padding-left: 20px;
     background-image: url(http://windows93.net/c/sys/skins/w93/apps/chat.gif);
