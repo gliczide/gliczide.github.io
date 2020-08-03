@@ -72,8 +72,8 @@ body {
     border-bottom: 1px solid #808080;
     color: #000;
 }
-.blurbs > .blogs > div:first-child, .boxHead {
-    background-color: linear-gradient(135deg,#f0f 0,#0ff 75%);
+.blurbs {
+    box-shadow: inset linear-gradient(135deg,#f0f 0,#0ff 75%) 1px 18px;
 }
 /* window icons */
 .boxInfo > div > b:before {
