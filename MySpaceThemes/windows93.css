@@ -75,13 +75,18 @@ body {
 /* window icons */
 .boxInfo > div > b:before {
     content: "";
-    font-size: 15px;
     padding-left: 20px;
-    background-image: url(http://windows93.net/c/sys/skins/w93/16/message.png);
+    background-image: url(http://windows93.net/c/sys/skins/w93/info.png);
     background-repeat: no-repeat;
     background-size: 16px;
 }
-.box.fwiends > div > b
+.box.fwiends > div > b:before {
+    content: "";
+    padding-left: 20px;
+    background-image: url(http://windows93.net/c/sys/skins/w93/apps/chat.gif);
+    background-repeat: no-repeat;
+    background-size: 16px;
+}
 /* cursors */
 html, body {
      cursor: url("https://www.windows93.net/c/sys/cursors/default.cur"),default;
