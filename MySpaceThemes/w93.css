@@ -32,6 +32,7 @@
     border-image-repeat: repeat repeat;
     border-image-source: url(https://i.imgur.com/qLpFPAX.png);
     background: linear-gradient(135deg,#f0f 0,#0ff 25%);
+    box-shadow: inset 1px 1px #fff, 0 0 150px 1px rgba(255,0,255,0.5);
 }
 .topRight {
     margin-top: 10px;
@@ -41,6 +42,7 @@
     border-image-slice: 22 55 2 3 fill;
     border-image-width: 22px 55px 2px 3px;
     border-image-repeat: repeat repeat;
+    box-shadow: inset 1px 1px #fff, 0 0 150px 1px rgba(255,0,255,0.5);
 }
 h4 {
     color: #000000;
@@ -62,13 +64,27 @@ body {
     padding-left: 2px;
     padding-top: 2px;
     padding-bottom: 2px;
-    box-shadow: 1px 0 #404040, 0 1px #404040, 1px 1px #404040, inset 1px 1px #fff;
     background-color: #d4d0c8;
     border-right: 1px solid #808080;
     border-left: 1px solid #d4d0c8;
     border-top: 1px solid #d4d0c8;
     border-bottom: 1px solid #808080;
     color: #000;
+}
+/* window icons */
+.boxInfo > div > b:before {
+    content: "";
+    padding-left: 20px;
+    background-image: url(http://windows93.net/c/sys/skins/w93/info.png);
+    background-repeat: no-repeat;
+    background-size: 16px;
+}
+.box.fwiends > .rightHead:before {
+    content: "";
+    padding-left: 20px;
+    background-image: url(http://windows93.net/c/sys/skins/w93/apps/chat.gif);
+    background-repeat: no-repeat;
+    background-size: 16px;
 }
 /* cursors */
 html, body {
