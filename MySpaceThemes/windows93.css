@@ -203,3 +203,6 @@ background: url(https://i.imgur.com/81UDdx7.png);
 background-repeat: no-repeat;
 background-position: center;
 }
+.tableLeft > a > div {
+max-width: initial;
+}
