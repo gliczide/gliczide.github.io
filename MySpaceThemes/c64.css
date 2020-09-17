@@ -1,0 +1,123 @@
+body { 
+    background: #7c71da;
+    color: #7c71da;
+    font-family: "Commodore 64 Regular";
+}
+a {
+    color: #7c71da;
+}
+.url.box a {
+    color: #7c71da !important;
+}
+div#header {
+    text-align: center;
+    font-family: "Commodore 64 Regular";
+    background: #3e32a2;
+    border-bottom: 1px solid #7c71da;
+}
+div#hSub {
+    text-align: center;
+    font-family: "Commodore 64 Regular";
+    background: #3e32a2;
+    color: #7c71da;
+}
+#header a:not(.logo) {
+    color: #7c71da;
+}
+.player {
+    color: #7c71da;
+}
+.extended {
+    border: 1px solid #3e32a2;
+}
+#hSub a {
+    color: #7c71da;
+}
+.topLeft {
+    background: #3e32a2;
+}
+.tableLeft {
+    background: #3e32a2;
+}
+.rightHead {
+    background: #3e32a2;
+    color: #7c71da;
+    padding-left: 4px;
+}
+@keyframes blinkingTextViolet{
+    0%{     color: #7c71da; }
+    100%{   color: #7c71da; }
+}
+ 
+.blinkRed{
+    animation:blinkingTextRed 0.3s infinite;
+}
+@keyframes blinkingTextRed{
+    0%{     color: #7c71da; }
+    100%{   color: #7c71da; }
+}
+ 
+.blinkYellow{
+    animation:blinkingTextYellow 0.3s infinite;
+}
+@keyframes blinkingTextYellow{
+    0%{     color: #7c71da; }
+    100%{   color: #7c71da; }
+}
+ 
+.blinkGreen{
+    animation:blinkingTextGreen 0.3s infinite;
+}
+@keyframes blinkingTextGreen{
+    0%{     color: #7c71da; }
+    100%{   color: #7c71da; }
+}
+h4 {
+    color: #7c71da;
+}
+.tableRight {
+    background: #3e32a2;
+}
+.box {
+    background: #3e32a2;
+}
+.boxHead {
+    background: #3e32a2;
+    color: #7c71da;
+ 
+}
+.fwiendCount {
+    color: #7c71da;
+}
+.url {
+    border: solid 2px #7c71da;
+}
+.boxButton {
+    color: #7c71da;
+}
+.boxInfo {
+    border: 1px solid #7c71da;
+}
+.logo {
+ 
+    visibility: hidden;
+}
+ 
+.logo::before {
+    visibility: visible;
+    color: #7c71da;
+    font-size: 25px;
+    content: "**** Commodore 64 Basic V2 ****";
+    padding-left: 237px;
+}
+a[href$="=7230"]>div>b::after {
+    content: "CSS Helper ";
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    background: #7c71da;
+}
+a>div>b::after {
+    color: #3e32a2;
+    border-radius: 5px;
+}
