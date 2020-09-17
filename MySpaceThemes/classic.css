@@ -1,0 +1,231 @@
+::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+  background-color: #000;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACAQMAAABIeJ9nAAAABlBMVEX////AwMCU81DAAAAADElEQVQIHWNoYHAAAAHEAMEKQ169AAAAAElFTkSuQmCC);
+  background-size: 2px;
+}
+::-webkit-scrollbar-track {
+}
+::-webkit-scrollbar-thumb {
+  background-color: silver;
+  border-left: ridge 2px #fff;
+  border-top: ridge 2px #fff;
+  border-right: ridge 2px grey;
+  border-bottom: ridge 2px grey;
+}
+::-webkit-scrollbar-thumb:active {
+  background-color: #d0d0d0;
+}
+::-webkit-scrollbar-button {
+  background-color: darkgrey;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAPBAMAAABKPLFCAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAIVBMVEUAAACGhILr6ulbWlqop6ddXV0hISHk4+MAAABubm3///8cDMtbAAAAAXRSTlMAQObYZgAAAAFiS0dECmjQ9FYAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfgChMNNQqYsOkJAAAAfElEQVQY02MQhAABQRTAABVlEFICA0EIpYjGpZ60CUTaGcoNQpVWTodIlxmBuaqtEGl3JXUnED+sCCKtngqWNptmBJY2KwKqF1RS7YTZPSMIyFVOV08GSytnJith6lYpUiqB2B0RhM1uuMtVsbucusGCTZoRJYpgACoqCABTOTzVZ8THeQAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxNi0xMC0xOVQxNTo1MToyOCswMjowMPJE7xwAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTYtMTAtMTlUMTU6NTE6MjgrMDI6MDCDGVegAAAAAElFTkSuQmCC);
+  width: 15px;
+  height: 15px;
+}
+::-webkit-scrollbar-button:vertical:start {
+  background-position: -45px 0;
+}
+::-webkit-scrollbar-button:vertical:end {
+  background-position: 0 0;
+}
+::-webkit-scrollbar-button:horizontal:start {
+  background-position: -15px 0;
+}
+::-webkit-scrollbar-button:horizontal:end {
+  background-position: -30px 0;
+}
+div#header, div#hSub {
+    background: black;
+    font-family: Blok Glic;
+}
+div#header {
+    border-bottom: 1px solid #fff;
+}
+.logo {
+    font-size: 0;
+}
+.logo::before {
+    visibility: visible;
+    content: "GLICZIDE";
+    font-size: 20px;
+    font-family: Blok Glic;
+    text-align: center;
+}
+body {
+    background: url("https://gliczide.github.io/images/space.png");
+    color: white;
+}
+.boxHead, .rightHead {
+    background: #1a1a1a;
+    color: white;
+    font-family: Tahoma;
+    font-size: 13px;
+}
+.avatar, .fwiendFace img {
+    border: 5px solid white;
+}
+.fwiendFace img {
+    height: 110px;
+    width: 110px;
+    object-fit: cover;
+    max-width: none;
+}
+.blurbs>.blogs>div:first-child {
+     background: #1a1a1a;
+     color: white;
+     padding-left: 3px;
+     font-family: Tahoma;
+     font-size: 13px;
+}
+h4, .fwiendCount {
+    color: #000000;
+}
+.fwiendCounter {
+    margin-left: 3px;
+}
+/* irc */
+.box.comments {
+    position: relative;
+    display: flex;
+    font-family: Helvetica, monospace;
+    font-size: 10px;
+    background: #000;
+    color: #fff;
+    flex-direction: column-reverse;
+}
+
+.box.comments > div:last-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 8px !important;
+}
+
+.box.comments .boxHead { 
+    display: none
+}
+
+body:not(.blogBody) #userWall .tableRight,
+body:not(.blogBody) #userWall .tableLeft {
+    background: none;
+    width: unset;
+    padding: 0;
+    vertical-align: unset;
+    overflow-wrap: unset;
+}
+
+body:not(.blogBody) #userWall .tableRight {
+    padding-left: 4px;
+}
+
+body:not(.blogBody) #userWall .tableLeft img {
+    display: none; 
+}
+
+body:not(.blogBody) #userWall tr,
+body:not(.blogBody) #userWall td {
+    display: flex;
+    background: #0000;
+    flex-wrap: wrap;    
+}
+
+body:not(.blogBody) #userWall .tableLeft {
+    flex-shrink: 0;
+}
+
+body:not(.blogBody) #userWall tr {
+    position: relative;
+}
+
+body:not(.blogBody) #userWall tr {
+    border-bottom: 1px solid #222;
+}
+
+.tableLeft > a > div {
+    text-align: left;
+    max-width: none;
+}
+
+body:not(.blogBody) #userWall .tableLeft a {
+    color: unset;
+    padding-left: 2px;
+    display: block;
+    height: 14px;
+}
+
+body:not(.blogBody) #userWall .tableLeft b::after {
+    content: ":";
+}
+
+
+body:not(.blogBody) #userWall tr {
+    width: 100%;
+}
+
+body:not(.blogBody) #userWall .tableRight b.date {
+    display: none;
+}
+
+body:not(.blogBody) #userWall .tableRight button[onclick*=delete]::before {
+    content: "(";
+}
+
+body:not(.blogBody) #userWall .tableRight button[onclick*=delete]::after {
+    content: ")";
+}
+
+body:not(.blogBody) #userWall .tableRight button[onclick*=delete] {
+    position: absolute;
+    right: 3px;
+    top: 2px;
+    font-family: inherit;
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 8px;
+    cursor: pointer;
+    color: #a00;
+}
+
+body:not(.blogBody) #userWall .tableRight img {
+    max-width: 50% !important;
+}
+
+img {
+    image-rendering: unset;
+}
+
+@media (max-width: 460px) {
+    body:not(.blogBody) #userWall .tableLeft,
+    body:not(.blogBody) #userWall .tableRight {
+        width: 100%;
+    }
+    body:not(.blogBody) #userWall tr {
+        padding: 4px;
+    }
+}
+.box {
+    margin-bottom: 20px;
+    padding-right: 1px;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    box-shadow: 1px 0 #404040, 0 1px #404040, 1px 1px #404040, inset 1px 1px #7E7E7E;
+    background-color: #7E7E7E;
+    border-right: 1px solid #808080;
+    border-left: 1px solid #d4d0c8;
+    border-top: 1px solid #d4d0c8;
+    border-bottom: 1px solid #808080;
+    color: #000;
+    font-family: MS Sans Serif;
+}
+#report, #block {
+    visibility: hidden;
+}
+#sMsg, #add, #block, #report {
+    background-repeat: no-repeat;
+}
+#block, #report {
+    display: none;
+}
