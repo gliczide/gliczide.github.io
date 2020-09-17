@@ -1,0 +1,110 @@
+h2.uName {
+    background-color: navy;
+    border: 1px solid black;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 3px;
+}
+h2.uName:before, .boxHead:before, .rightHead:before, .blurbs>.blogs>div:first-child:before {
+    content: "";
+    background-image: url(https://i.imgur.com/dANWFKU.png);
+    width: 18px;
+    height: 18px;
+    float: left;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-left: -1px;
+    margin-top: -2px;
+}
+.boxInfo.box>.boxHead::after {
+    margin-right: -4px;
+}
+h2.uName:after, .boxHead:after, .rightHead:after, .blurbs>.blogs>div:first-child:after {
+    content: "";
+    background-image: url(https://i.imgur.com/wwqsh9O.png);
+    width: 38px;
+    height: 18px;
+    float: right;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-right: -1px;
+    margin-top: -2px;
+}
+.boxHead:before, .rightHead:before {
+margin-left: -6px !important;
+}
+.blurbs>.rightHead:before {
+margin-left: -1px !important;
+}
+.box.fwiends>.rightHead:before {
+margin-left: -5px !important;
+}
+#form>.boxHead::before {
+    margin-left: -7px !important;
+}
+.short {
+width: 100%;
+background-color: white;
+border: 1px solid black;
+}
+body {
+background-color: #C0C0C0;
+padding-top: 64px;
+font-family: Microsoft Sans Serif;
+}
+.box.comments, .box.fwiends, .blogs, .blurbs>.rightHead {
+border: 1px solid black;
+padding-left: 1px;
+}
+.box {
+background-color: white;
+}
+.box.fwiends {
+margin-bottom: 10px;
+}
+input, button {
+    border: 1px solid black;
+    color: black;
+    border-radius: 3px;
+    background-color: #C0C0C0;
+    font-weight: bold;
+    font-size: 12px;
+}
+.topLeft {
+margin-left: -5px;
+}
+.boxHead, .rightHead, .blurbs>.blogs>div:first-child {
+text-align: center;
+background-color: navy;
+color: white;
+font-size: 12px;
+margin-left: -1px;
+border-bottom: 1px solid black;
+padding-top: 1px;
+padding-bottom: 3px;
+}
+html, body {
+     cursor: url("https://gliczide.github.io/MySpaceThemes/windows31.cur"),default;
+}
+textarea {
+     cursor: url("https://www.windows93.net/c/sys/cursors/text.cur"),text;
+}
+.player audio::-webkit-media-controls-play-button, .player audio::-webkit-media-controls-mute-button, .player audio::-webkit-media-controls-volume-slider, .player audio::-webkit-media-controls-timeline, a, img, button {
+     cursor: url("https://www.windows93.net/c/sys/cursors/pointer.cur"),pointer;
+}
+.url {
+padding: 0 !important;
+border: 1px solid black;
+}
+.url.box>div>b {
+    font-size: 12px;
+    background-color: navy;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
