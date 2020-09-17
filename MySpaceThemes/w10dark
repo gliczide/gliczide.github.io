@@ -1,0 +1,214 @@
+img {
+    image-rendering: auto !important;
+}
+h2.uName {
+    float: inherit;
+    border-top: 1px solid black;
+    background-color: #000000;
+    box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+    font-size: 12px;
+    font-weight: normal;
+    padding-left: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+.boxButton {
+    outline:0;
+    border: 1px solid #ADADAD;
+    background-color: #E1E1E1;
+    color: #000000;
+    vertical-align: middle;
+    cursor: default;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.boxButton:hover {
+    outline:0;
+    transition: 0.5s;
+    border: 1px solid #0078D7;
+    background-color: #E5F1FB;
+    color: #000000;
+    vertical-align: middle;
+    cursor: default;
+}
+
+.boxButton:active {
+    outline: 1px #0078D7 solid;
+    transition: 0.5s;
+    border: 1px solid #0078D7;
+    background-color: #CCE4F7;
+    color: #000000;
+    vertical-align: middle;
+    cursor: default;
+}
+input[type=submit], button {
+    outline:0;
+    border: 1px solid #ADADAD;
+    background-color: #E1E1E1;
+    color: #000000;
+}
+
+input[type=submit]:hover, button:hover {
+    transition: 0.5s;
+    outline:0;
+    border: 1px solid #0078D7;
+    background-color: #E5F1FB;
+    color: #000000;
+}
+
+input[type=submit]:focus, button:focus {
+    transition: 0.5s;
+    outline: 1px #0078D7 solid;
+    border: 1px solid #0078D7;
+    background-color: #E1E1E1;
+    color: #000000;
+}
+
+input[type=submit]:focus:hover, button:focus:hover {
+    transition: 0.5s;
+    outline:0;
+    border: 1px solid #005499;
+    background-color: #CCE4F7;
+    color: #000000;
+}
+.short {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 100%;
+    background-color: #323233;
+    box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+}
+.fwiendFace img, .tableLeft img, .avatar {
+border-radius: 100%;
+}
+.fwiendFace img, .tableLeft img {
+width: 110px;
+height: 110px;
+object-fit: cover;
+}
+h4, b, a, body, .boxHead, .rightHead {
+color: white !important;
+}
+body {
+background: url(https://i.imgur.com/zr13bld.jpg);
+background-attachment: fixed;
+background-size: cover;
+}
+.boxHead, .rightHead {
+background-color: black;
+font-family: arial;
+font-size: 12px;
+margin-left: -1px;
+padding-top: 8px;
+padding-bottom: 8px;
+}
+@keyframes openWindow {
+0% {
+opacity: 0%;
+transform: scale(0.9);
+}
+100% {
+opacity: 100%;
+}
+}
+.fwiendCount {
+    color: #fff;
+}
+.topLeft, .box {
+animation-name: openWindow;
+animation-fill-mode: forwards;
+animation-duration: 0.8s;
+}
+/* .boxHead:after, .rightHead:after, .blurbs>.blogs>div:first-child:after, .url.box>div:first-child:after, h2.uName:after {
+    content: url(https://i.imgur.com/80IaJBe.png);
+    float: right;
+} */
+.box {
+padding-left: 1px;
+border: 1px solid black;
+background-color: #323233;
+box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+color: white;
+}
+b {
+font-weight: normal;
+}
+div.blogs, .fwiendCounter {
+padding-left: 3px;
+}
+.blurbs>.blogs>div:first-child {
+    background-color: black;
+    margin-left: -1px;
+    padding-left: 3px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: -4px;
+    border-top: none;
+    position: relative;
+    font-size: 12px;
+    font-weight: normal;
+    width: calc(100% + 3px);
+    top: -16px;
+}
+
+.blurbs>.blogs>div:not(:first-child){
+width: 96px;
+text-align: center;
+margin: 0 20px;
+}
+
+.blurbs>.blogs>div:not(:first-child):before{
+content: "";
+display: block;
+width: 96px;
+height: 64px;
+background: url(https://i.imgur.com/GCfugvo.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.blogs {
+display: flex;
+flex-flow: row wrap;
+padding-top: 16px;
+padding-bottom: 16px;
+}
+.tableLeft, .tableRight {
+background: #323233;
+}
+.songName {
+    background-color: black;
+    font-size: 12px;
+    color: #fff;
+    padding-left: 6px;
+    width: calc(100% + 3px);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: -4px;
+    margin-top: -4px;
+}
+.player a img {
+    filter: invert(1);
+    padding-right: 5px !important;
+}
+.url.box>div:first-child {
+    background-color: black;
+    font-size: 12px;
+    color: #fff;
+    padding-left: 6px;
+    width: calc(100% + 3px);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: -4px;
+    margin-top: -4px;
+}
+.topLeft.blogCard {
+    border: 1px solid black;
+    background-color: #323233;
+    margin-left: -2px;
+    margin-top: 24px;
+    box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.75);
+}
