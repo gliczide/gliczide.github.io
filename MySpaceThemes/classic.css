@@ -157,24 +157,18 @@ body:not(.blogBody) #userWall .tableLeft a {
 body:not(.blogBody) #userWall .tableLeft b::after {
     content: ":";
 }
-
-
 body:not(.blogBody) #userWall tr {
     width: 100%;
 }
-
 body:not(.blogBody) #userWall .tableRight b.date {
     display: none;
 }
-
 body:not(.blogBody) #userWall .tableRight button[onclick*=delete]::before {
     content: "(";
 }
-
 body:not(.blogBody) #userWall .tableRight button[onclick*=delete]::after {
     content: ")";
 }
-
 body:not(.blogBody) #userWall .tableRight button[onclick*=delete] {
     position: absolute;
     right: 3px;
@@ -191,11 +185,6 @@ body:not(.blogBody) #userWall .tableRight button[onclick*=delete] {
 body:not(.blogBody) #userWall .tableRight img {
     max-width: 50% !important;
 }
-
-img {
-    image-rendering: unset;
-}
-
 @media (max-width: 460px) {
     body:not(.blogBody) #userWall .tableLeft,
     body:not(.blogBody) #userWall .tableRight {
