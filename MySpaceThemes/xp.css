@@ -75,7 +75,7 @@ h2#name {
     margin-right: 30px;
     margin-top: 4px;
 }
-input[type="submit"], button {
+input[type="submit"], button, #sMsg, #block, #report, #add {
     font-family: "MS Sans Serif",Arial;
     -webkit-font-smoothing: antialiased;
     font-size: 11px;
@@ -106,18 +106,6 @@ div {
 .topRight > .box.comments > #form > .boxHead {
     width: 99.5%;
 }
-/* #add {
-    padding-left: 14px;
-}
-#block {
-    padding-left: 12px;
-}
-#report {
-    padding-left: 8px;
-}
-#sMsg {
-    padding-left: 3px;
-} */
 .blurbs>.blogs>div:first-child {
     margin-right: -4px;
     margin-left: -3px;
@@ -163,7 +151,8 @@ div#top {
 }
 .topLeft.blogCard {
     margin-top: 20px;
-    margin-left: 5px;
+    margin-left: -5px;
+    width: 24%;
 }
 .topRight.blogPost > .blogs {
     background: none;
@@ -210,4 +199,7 @@ div#container {
 }
 div#imgPreview {
     margin-top: 0px;
+}
+.boxInfo.box {
+    padding-bottom: 10px;
 }
