@@ -88,6 +88,7 @@ input[type="submit"], button, #sMsg, #block, #report, #add {
 }
 #sMsg, #block, #report, #add {
 padding: 5px;
+text-align: center;
 }
 div {
     margin-top: 4px;
