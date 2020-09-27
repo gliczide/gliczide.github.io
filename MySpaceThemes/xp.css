@@ -211,3 +211,15 @@ box-shadow: none;
 background: linear-gradient(180deg, rgba(205, 202, 195, 1) 0%, rgba(227, 227, 219, 1) 8%, rgba(229, 229, 222, 1) 94%, rgba(242, 242, 241, 1) 100%);
 user-select: none;
 }
+@media only screen and (max-width: 768px) {
+div#hSub {
+    margin-top: -4px;
+}
+@media only screen and (max-width: 768px) {
+span#hUp {
+    margin-right: -5px !important;
+}
+@media only screen and (max-width: 768px) {
+h2#name {
+    width: 100.75%;
+}
