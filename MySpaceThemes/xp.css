@@ -127,6 +127,7 @@ height: 64px;
 background: url(https://i.imgur.com/qSfHWmi.png);
 background-repeat: no-repeat;
 background-position: center;
+image-rendering: pixelated;
 }
 
 .blogs {
@@ -223,4 +224,3 @@ span#hUp {
 h2#name {
     width: 100.75%;
 }
-image-rendering: pixelated;
