@@ -284,3 +284,13 @@ div#container:after {
     padding-right: 19px;
 }
 }
+@media only screen and (max-width: 768px) {
+div#hSub a[href$="/random.php"]:after {
+    content: "om";
+}
+}
+@media only screen and (max-width: 768px) {
+div#hSub a[href$="/list.php"]:after {
+    content: " Fwiends";
+}
+}
