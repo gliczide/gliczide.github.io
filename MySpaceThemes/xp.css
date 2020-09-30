@@ -16,7 +16,7 @@ body {
 }
 .boxHead, .rightHead, h2#name, .blurbs>.blogs>div:first-child {
     font-family: Trebuchet MS;
-    background: linear-gradient(180deg,#0997ff,#0053ee 8%,#0050ee 40%,#06f 88%,#06f 93%,#005bff 95%,#003dd7 96%,#003dd7);
+    background-image: linear-gradient(180deg,#0997ff,#0053ee 8%,#0050ee 40%,#06f 88%,#06f 93%,#005bff 95%,#003dd7 96%,#003dd7);
     padding: 4px 5px 3px 3px;
     border-top: 1px solid #0831d9;
     border-left: 1px solid #0831d9;
@@ -40,7 +40,7 @@ h2#name {
 }
 .short {
     width: 101.4%;
-    background: #ece9d8;
+    background-color: #ece9d8;
     box-shadow: inset -1px -1px #00138c, inset 1px 1px #0831d9, inset -2px 1px #001ea0, inset 2px 2px #166aee, inset -3px -3px #003bda, inset 3px 0px #0855dd;
     -webkit-font-smoothing: antialiased;
     padding-left: 5px;
@@ -51,7 +51,7 @@ h2#name {
     border-radius: 0;
 }
 .box, .short, .topLeft.blogCard {
-    background: #ece9d8;
+    background-color: #ece9d8;
     box-shadow: inset -1px -1px #00138c, inset 1px 1px #0831d9, inset -2px -2px #001ea0, inset 2px 2px #166aee, inset -3px -3px #003bda, inset 3px 3px #0855dd;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -78,7 +78,7 @@ input[type="submit"], button, #sMsg, #block, #report, #add {
     font-size: 11px;
     box-sizing: border-box;
     border: 1px solid #003c74;
-    background: linear-gradient(180deg,#fff,#ecebe5 86%,#d8d0c4);
+    background-image: linear-gradient(180deg,#fff,#ecebe5 86%,#d8d0c4);
     box-shadow: none;
     border-radius: 3px;
     color: black;
@@ -124,7 +124,7 @@ content: "";
 display: block;
 width: 96px;
 height: 64px;
-background: url(https://i.imgur.com/qSfHWmi.png);
+background-image: url(https://i.imgur.com/qSfHWmi.png);
 background-repeat: no-repeat;
 background-position: center;
 image-rendering: pixelated;
@@ -143,7 +143,7 @@ image-rendering: pixelated;
 div#top {
     padding: 14px;
     clear: both;
-    background: linear-gradient(180deg,#fcfcfe,#f4f3ee);
+    background-image: linear-gradient(180deg,#fcfcfe,#f4f3ee);
     border: 1px solid #919b9c;
     position: relative;
     z-index: 2;
@@ -155,7 +155,7 @@ div#top {
     width: 24%;
 }
 .topRight.blogPost > .blogs {
-    background: none;
+    background-color: none;
 }
 .blogTitle > h2#name {
     position: relative;
@@ -168,7 +168,7 @@ div#top {
     width: 99.4%;
 }
 span#hUp {
-    background: black;
+    background-color: black;
     vertical-align: middle;
     height: 20px;
     position: relative;
@@ -176,14 +176,14 @@ span#hUp {
     right: -10px;
 }
 div#header {
-    background: #6487dc;
+    background-color: #6487dc;
     height: 48px;
     border: 0;
 }
 div#hSub {
     height: 11px;
     margin-top: 25px;
-    background: #6487dc;
+    background-color: #6487dc;
     font-size: 10px;
     color: white;
     border-bottom: 1px solid white;
@@ -209,7 +209,7 @@ user-select: none;
 }
 #sMsg:active, #block:active, #report:active, #add:active, input:active, button:active {
 box-shadow: none;
-background: linear-gradient(180deg, rgba(205, 202, 195, 1) 0%, rgba(227, 227, 219, 1) 8%, rgba(229, 229, 222, 1) 94%, rgba(242, 242, 241, 1) 100%);
+background-image: linear-gradient(180deg, rgba(205, 202, 195, 1) 0%, rgba(227, 227, 219, 1) 8%, rgba(229, 229, 222, 1) 94%, rgba(242, 242, 241, 1) 100%);
 user-select: none;
 }
 @media only screen and (max-width: 768px) {
