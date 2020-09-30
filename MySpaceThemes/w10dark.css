@@ -170,7 +170,7 @@ content: "";
 display: block;
 width: 96px;
 height: 64px;
-background: url(https://i.imgur.com/GCfugvo.png);
+background-image: url(https://i.imgur.com/GCfugvo.png);
 background-repeat: no-repeat;
 background-position: center;
 }
@@ -182,7 +182,7 @@ padding-top: 16px;
 padding-bottom: 16px;
 }
 .tableLeft, .tableRight {
-background: #323233;
+background-color: #323233;
 }
 .songName {
     background-color: black;
