@@ -218,3 +218,9 @@ body:not(.blogBody) #userWall .tableRight img {
 #block, #report {
     display: none;
 }
+@media only screen and (max-width: 768px) {
+.topLeft, .topRight {
+    width: 47%;
+    float: left !important;
+}
+}
