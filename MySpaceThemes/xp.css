@@ -10,7 +10,7 @@ input[type=checkbox],input[type=radio],button,a,input {
 }
 body {
     font-family: Arial;
-    background: url(https://i.imgur.com/SuFFNvt.png);
+    background-image: url(https://i.imgur.com/SuFFNvt.png);
     background-attachment: fixed;
     background-size: cover;
 }
