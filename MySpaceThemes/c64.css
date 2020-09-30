@@ -122,3 +122,9 @@ a>div>b::after {
     color: #3e32a2;
     border-radius: 5px;
 }
+@media only screen and (max-width: 768px) {
+.topLeft, .topRight {
+    width: 47%;
+    float: left !important;
+}
+}
