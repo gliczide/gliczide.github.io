@@ -63,7 +63,7 @@ table.short {
 .blogTitle > h2#name {
     border: 0px;
     box-shadow: none;
-    background: none;
+    background-color: none;
     font-size: 0;
 }
 .boxButton {
