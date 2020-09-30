@@ -221,10 +221,6 @@ span#hUp {
     margin-right: -5px !important;
 }
 @media only screen and (max-width: 768px) {
-h2#name {
-    width: 100.75%;
-}
-@media only screen and (max-width: 768px) {
 .topLeft, .topRight {
     width: 47%;
     float: left !important;
