@@ -165,3 +165,17 @@ button:focus, input[type="submit"]:focus, .boxButton:focus {
     margin-top: 50px;
 }
 }
+span#hUp {
+    position: relative;
+    top: 0px;
+}
+@media only screen and (max-width: 768px) {
+div#header {
+    height: 22px;
+}
+}
+@media only screen and (max-width: 768px) {
+div#hSub {
+    top: 34px;
+}
+}
