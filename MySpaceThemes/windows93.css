@@ -213,3 +213,8 @@ max-width: initial;
     float: left !important;
 }
 }
+@media only screen and (max-width: 768px) {
+.topRight {
+    margin-top: 50px;
+}
+}
