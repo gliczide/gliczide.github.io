@@ -155,7 +155,7 @@ div#top {
     width: 24%;
 }
 .topRight.blogPost > .blogs {
-    background-color: none;
+    background-color: transparent;
 }
 .blogTitle > h2#name {
     position: relative;
