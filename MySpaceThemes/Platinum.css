@@ -2,63 +2,6 @@
 img {
     image-rendering: pixelated;
 }
-/* broken radius 
-.url.box::before {
-    background-image: url(https://i.imgur.com/c0HUlyk.png);
-    background-repeat: no-repeat;
-    width: 5px;
-    height: 5px;
-    position: fixed;
-    display: block;
-    content: "";
-    left: 0;
-    bottom: 0;
-    margin: auto;
-    z-index: 2560;
-    visibility: visible;
-}
-.url.box::after {
-    background-image: url(https://i.imgur.com/LB4blv1.png);
-    background-repeat: no-repeat;
-    width: 5px;
-    height: 5px;
-    position: fixed;
-    display: block;
-    content: "";
-    left: 0;
-    top: 0;
-    margin: auto;
-    z-index: 2560;
-    visibility: visible;
-}
-div#header:before {
-    background-image: url(https://i.imgur.com/9tWHpYP.png);
-    background-repeat: no-repeat;
-    width: 5px;
-    height: 5px;
-    position: fixed;
-    display: block;
-    content: "";
-    right: 0;
-    top: 0;
-    margin: auto;
-    z-index: 2560;
-    visibility: visible;
-}
-div#container:before {
-    background-image: url("https://i.imgur.com/1fpurzl.png");
-    background-repeat: no-repeat;
-    width: 5px;
-    height: 5px;
-    position: fixed;
-    display: block;
-    content: "";
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    visibility: visible;   
-}
-*/
 html::before {
     background-image: url(https://i.imgur.com/81FLzna.png);
     background-repeat: no-repeat;
@@ -102,7 +45,7 @@ html, body, input {
 @keyframes black {
 0% {
    cursor: none;
-   background: #000;
+   background-color: #000;
 }
 }
 #container, body, html::after, body::before {
@@ -247,7 +190,7 @@ content: "";
 display: block;
 width: 96px;
 height: 64px;
-background: url(https://i.imgur.com/llf7cg4.png);
+background-image: url(https://i.imgur.com/llf7cg4.png);
 background-repeat: no-repeat;
 background-position: center;
 }
@@ -255,7 +198,7 @@ background-position: center;
     color: black;
 }
 .tableLeft, .tableRight {
-    background: none;
+    background-color: none;
 }
 div#container:after {
     background-image: url("https://i.imgur.com/mUugjgV.png");
