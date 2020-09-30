@@ -160,3 +160,8 @@ button:focus, input[type="submit"]:focus, .boxButton:focus {
     float: left !important;
 }
 }
+@media only screen and (max-width: 768px) {
+.topRight {
+    margin-top: 50px;
+}
+}
