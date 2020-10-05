@@ -272,6 +272,7 @@ color: white;
 .topRight {
     margin-top: 31px;
 }
+@media only screen and (max-width: 360px)
 div#hSub {
     width: 97%;
 }
