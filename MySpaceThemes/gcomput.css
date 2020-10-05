@@ -33,7 +33,6 @@ table.short, .blogs, #top, .player.box, .extended.box, .boxInfo.box, #about, .to
     height: 100%;
     z-index: -1;
     background-image: url(https://steamuserimages-a.akamaihd.net/ugc/271724616138981720/96A06E7CC5F10A514F715139C70A1801FC4D79BC/);
-    background-attachment: fixed;
     mix-blend-mode: exclusion;
     animation: bg 100s linear infinite;
 }
