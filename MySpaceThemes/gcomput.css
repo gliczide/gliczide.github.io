@@ -1,0 +1,288 @@
+/*
+                                 __ 
+  ___ ________  __ _  ___  __ __/ /_
+ / _ `/ __/ _ \/  ' \/ _ \/ // / __/
+ \_, /\__/\___/_/_/_/ .__/\_,_/\__/ 
+/___/              /_/              
+
+*/
+div#who:after {
+    content: "wip!!;
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    opacity: 0.5;
+    z-index: 2;
+}
+body {
+  color: white;
+  font-size: 10pt;
+  font-family: monospace;
+  background-color: #000;
+  user-select: none;
+}
+table.short, .blogs, #top, .player.box, .extended.box, .boxInfo.box, #about, .topLeft.blogCard {
+    background-color: #00000050;
+}
+.topRight:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/271724616138981720/96A06E7CC5F10A514F715139C70A1801FC4D79BC/);
+    background-attachment: fixed;
+    mix-blend-mode: exclusion;
+    animation: bg 100s linear infinite;
+}
+.topLeft::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://i.imgur.com/dIpfECg.jpg);
+    filter: saturate(0);
+    animation: night 10.5s linear infinite; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#footer, .boxHead, .rightHead, .url, .extended.box, h4 {
+display: none;
+}
+.box.blurbs, .player, .topLeft, #who, #userWall, form, #top {
+ visibility: visible !important;
+}
+
+div {
+text-align: center;
+}
+.topLeft {
+text-align: center;
+}
+#name {
+     animation: logo 1s ease-in-out infinite;
+}
+#avatar {
+     animation: threeduser 8s ease-in-out infinite; 
+     border-radius: 10px !important; 
+}
+  @keyframes bg {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% -200%;
+  }
+  }
+  @keyframes night {
+  0% {
+  filter: brightness(0.8);
+  }
+  40% {
+  filter: brightness(0.4);
+  }
+  80% {
+  filter: brightness(1.1);
+  }
+  100% {
+  filter: brightness(0.8);
+  }
+  }
+  @keyframes threeduser {
+    0% {
+   transform: perspective(750px) rotateX(25deg) rotateY(20deg);
+    }
+   50% {
+   transform: perspective(750px) rotateX(-25deg) rotateY(-20deg);
+   }
+   100% {
+   transform: perspective(750px) rotateX(25deg) rotateY(20deg);
+   }
+   }
+  @keyframes logo {
+    0% {
+    filter: drop-shadow(0px 0px 0px white);
+    }
+   50% {
+    filter: drop-shadow(0px 0px 8px white);
+   }
+   100% {
+    filter: drop-shadow(0px 0px 0px white);
+   }
+   }
+  a { 
+  color: white;
+  }
+  a:active {
+  color: gray;
+  }
+  img {
+    image-rendering: auto;
+  }
+audio::-webkit-media-controls-mute-button,video::-webkit-media-controls-mute-button {
+background-image: url(https://web.archive.org/web/20200926092940im_/https://i.imgur.com/dRi7c7l.png);
+background-size: 16px;
+}
+audio::-webkit-media-controls-enclosure,video::-webkit-media-controls-enclosure {
+    border-radius: 0%;
+    box-shadow: 1px 0 #404040, 0 1px #404040, 1px 1px #404040, inset 1px 1px #fff;
+    background-color: #d4d0c8;
+    border-right: 1px solid #808080;
+    border-left: 1px solid #d4d0c8;
+    border-top: 1px solid #d4d0c8;
+    border-bottom: 1px solid #808080;
+    color: #000;
+}
+audio {
+    margin-bottom: 5px;
+}
+.player.box {
+    width: 70%;
+    display: inline-table;
+    margin-bottom: 20px;
+    padding-right: 1px;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    box-shadow: 1px 0 #404040, 0 1px #404040, 1px 1px #404040, inset 1px 1px #fff;
+    background-color: #d4d0c8;
+    border-right: 1px solid #808080;
+    border-left: 1px solid #d4d0c8;
+    border-top: 1px solid #d4d0c8;
+    border-bottom: 1px solid #808080;
+}
+.songName::before {
+    content: "";
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 99%;
+    height: 164px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    background-image: url(https://i.imgur.com/qArbrlm.png);
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #d4d0c8;
+    border-bottom: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+}
+.tableLeft, .tableRight {
+background-color: #323232;
+}
+textarea#commentInput, .boxButton, button, input {
+    color: white;
+}
+form {
+    text-align: center;
+}
+textarea#commentInput {
+    width: 90%;
+    height: 64px;
+    background-color: #212121;
+    border: 1px solid black;
+}
+#top {
+    margin-top: -20px;
+}
+span.songTitle {
+    font-size: 10px;
+}
+.blog {
+background-color: #00000075;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #242424;
+    outline: none;
+}
+::-webkit-scrollbar-track {
+    background-color: #111;
+}
+button, input {
+    background-color: #242424;
+    border: 1px solid #111;
+}
+.box {
+overflow: initial;
+}
+div#hSub, div#header {
+    text-align: left;
+}
+.blogs div {
+    background-color: transparent;
+}
+.topRight.blogPost>.blogs {
+    width: 100%;
+}
+.blogs>div>b {
+    display: none;
+}
+table.short {
+    width: 105%;
+    margin-left: 0.5px;
+}
+[href$="#"] {
+font-size: 0;
+}
+[href$="#"]:after {
+    content: "gliczide#7243";
+    font-size: 13px;
+}
+[href$="https://gliczide.neocities.org/"] {
+    text-decoration: unset;
+    font-size: 16px;
+    background-image: url(https://web.archive.org/web/20090821222727/http://geocities.com/Tokyo/Highrise/2799/rainbowbar.gif);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.boxInfo.box {
+    width: 105.2%;
+    border: 0;
+    margin-top: 0px;
+}
+div#about {
+    margin-top: -20px;
+}
+.fwiendCounter {
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+.fwiendCount {
+color: white;
+}
+.topRight {
+    margin-top: 31px;
+}
+span#hUp {
+    position: relative;
+    top: 0px;
+}
+@media only screen and (max-width: 768px) {
+div#header {
+    height: 22px;
+}
+}
+@media only screen and (max-width: 768px) {
+div#hSub {
+    top: 34px;
+}
+}
