@@ -271,3 +271,6 @@ color: white;
 .topRight {
     margin-top: 31px;
 }
+.box.blog {
+    margin-top: -41px;
+}
