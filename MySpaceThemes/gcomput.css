@@ -21,7 +21,7 @@ body {
   background-color: #000;
   user-select: none;
 }
-table.short, .blogs, #top, .player.box, .extended.box, .boxInfo.box, #about, .topLeft.blogCard {
+table.short, .blogs, #top, .extended.box, .boxInfo.box, #about, .topLeft.blogCard {
     background-color: #00000050;
 }
 .topRight:before {
