@@ -114,9 +114,6 @@ text-align: center;
     filter: drop-shadow(0px 0px 0px white);
    }
    }
-  a { 
-  color: white;
-  }
   a:active {
   color: gray;
   }
@@ -180,7 +177,7 @@ audio {
 .tableLeft, .tableRight {
 background-color: #323232;
 }
-textarea#commentInput, .boxButton, button, input {
+textarea#commentInput, .boxButton, button, input, a, .fwiendCount {
     color: white;
 }
 form {
@@ -263,9 +260,6 @@ div#about {
     position: absolute;
     right: 0;
     top: 50px;
-}
-.fwiendCount {
-color: white;
 }
 .topRight {
     margin-top: 31px;
