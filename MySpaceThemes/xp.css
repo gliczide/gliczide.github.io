@@ -146,7 +146,6 @@ div#top {
     background-image: linear-gradient(180deg,#fcfcfe,#f4f3ee);
     border: 1px solid #919b9c;
     position: relative;
-    z-index: 2;
     margin-bottom: 9px;
 }
 .topLeft.blogCard {
