@@ -154,28 +154,3 @@ button:focus, input[type="submit"]:focus, .boxButton:focus {
 ::-webkit-scrollbar-button:horizontal:end {
   background-position: -30px 0;
 }
-@media only screen and (max-width: 768px) {
-.topLeft, .topRight {
-    width: 47%;
-    float: left !important;
-}
-}
-@media only screen and (max-width: 768px) {
-.topRight {
-    margin-top: 50px;
-}
-}
-span#hUp {
-    position: relative;
-    top: 0px;
-}
-@media only screen and (max-width: 768px) {
-div#header {
-    height: 22px;
-}
-}
-@media only screen and (max-width: 768px) {
-div#hSub {
-    top: 34px;
-}
-}
