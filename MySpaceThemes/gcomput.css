@@ -267,3 +267,9 @@ div#about {
 .box.blog {
     margin-top: -41px;
 }
+.fwiendFace {
+    width: calc( 13% - 9px );
+    font-size: 10px;
+    padding-bottom: 28px;
+    padding-top: 28px;
+}
