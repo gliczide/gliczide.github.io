@@ -45,7 +45,7 @@ html, body, input {
 @keyframes black {
 0% {
    cursor: none;
-   background-color: #000;
+   background: #000;
 }
 }
 #container, body, html::after, body::before {
